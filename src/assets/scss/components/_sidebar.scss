@@ -1,7 +1,8 @@
 @mixin sidebar-active {
     .sidebar-wrapper {
-        left: 0;
+      background-color: #1e1e2f;
     }
+
     & ~ #main {
         margin-left: 300px;
     }
